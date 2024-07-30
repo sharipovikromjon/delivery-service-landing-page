@@ -30,7 +30,7 @@ img {
   height: auto;
 }
 .container {
-  width: 1440px;
+  width: 1140px;
   margin-left: auto;
   margin-right: auto;
   background: #fff;
@@ -91,7 +91,204 @@ img {
   border-radius: 5px;
   border: 1px solid #dc780b;
   background-color: transparent;
-  color: #dc780b;
+  color: #000;
   opacity: 0.75;
 }
 /* Header section styling END */
+
+/* Section: Intro. - START */
+.intro {
+  background: #fff;
+  padding-top: 16px;
+  padding-bottom: 115px;
+}
+.intro__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro__title {
+  width: 555px;
+  color: #150c01;
+  font-size: 48.83px;
+  font-weight: 700;
+  line-height: 57.6px;
+  margin-bottom: 42px;
+}
+.intro__text {
+  width: 555px;
+  color: #150c01;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.intro__buttons__block {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  column-gap: 30px;
+}
+.intro__button {
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background: #dc780b;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #dc780b;
+  letter-spacing: 1px;
+  transition: all 0.7s ease;
+}
+.intro__button:hover {
+  background-color: whitesmoke;
+  color: #000;
+}
+.intro__link {
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: 1.5px solid #dc780b;
+  opacity: 0.7;
+  color: #dc780b;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  transition: all 0.7s ease;
+}
+.intro__link:hover {
+  background-color: black;
+  color: #fff;
+  border: none;
+}
+.intro__img {
+  width: 576px;
+  height: 608px;
+  flex-shrink: 0;
+  mix-blend-mode: darken;
+}
+/* Section: Intro. - END */
+
+/* Section: Features - START */
+.features {
+  padding-bottom: 100px;
+  background-color: #fff;
+}
+.features__caption {
+  color: #dc780b;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 7px;
+}
+.features__title {
+  color: #150c01;
+  font-family: "Philosopher", sans-serif;
+  font-size: 31.25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+.features__list {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 90px;
+  text-align: center;
+}
+.features__img {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+  margin-bottom: 33px;
+}
+.features__sub__title {
+  color: #150c01;
+  font-family: "Philosopher", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.features__sub__text {
+  width: 300px;
+  flex-shrink: 0;
+  color: #150c01;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+}
+/* Section: Features - END */
+
+/* Section: About - START */
+.about {
+  padding-bottom: 100px;
+  background-color: #fff;
+}
+.about__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 100px;
+}
+.about__img {
+  width: 560px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 50px;
+}
+.about__caption {
+  color: #dc780b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.about__title {
+  width: 487px;
+  flex-shrink: 0;
+  font-family: "Philosopher", sans-serif;
+  color: #150c01;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 40.625px;
+  margin-bottom: 30px;
+}
+.about__text {
+  width: 487px;
+  color: #150c01;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+.about__link {
+  display: inline-block;
+  padding: 12px 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #dc780b;
+  border-radius: 8px;
+  transition: 0.7s ease;
+}
+.about__link:hover {
+  background-color: #000;
+}
+/* Section: About - END */
+
+/* Section: Menu - START */
+
+/* Section: Menu - END */
